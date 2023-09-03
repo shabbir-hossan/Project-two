@@ -48,3 +48,64 @@ body{
   padding-bottom: 5px;
   color: var(--primary-color);
  }
+
+ /* this is header section */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+header .head-image{
+    height: 450px;
+    width: auto;
+    border-radius: 200px;
+    margin-right: 10rem;
+}
+
+header .head-content{
+    text-align: center;
+}
+
+header .head-content p{
+    font-size: 18px;
+    margin-bottom: -20px;
+}
+
+header .head-content h1{
+    font-size: 2.5rem;
+    margin-bottom: -15px;
+}
+
+header .head-content h3{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+header .head-content .btn{
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: 1px solid var(--third-color);
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+header .head-content .btn:nth-child(odd){
+   background-color: var(--primary-color);
+   border: none;
+   color: var(--fourth-color);
+   margin-left: 40px;
+}
+
+header .head-content .btn:hover{
+    background-color: var(--third-color);
+    transition: background-color 1s ease;
+    color: var(--fourth-color);
+}
+
+header .head-content i{
+   font-size: 32px;
+   margin: 20px 10px;
+   /* color: var(--primary-color); */
+}
