@@ -8,4 +8,43 @@ body{
     --primary-color: #606060;
     --second-color: #353535;
     --third-color: black;
+    --fourth-color: white;
 }
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* This is navigation bar */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: var(--fourth-color);
+}
+
+.navigation ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navigation ul li a{
+   text-decoration: none;
+   color: var(--third-color);
+   text-transform: uppercase;
+   font-weight: 500;
+}
+
+.navigation ul li a:hover{
+  border-bottom-style: solid;
+  border-color: var(--primary-color);
+  padding-bottom: 5px;
+  color: var(--primary-color);
+ }
