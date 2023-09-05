@@ -11,6 +11,10 @@ body{
     --fourth-color: white;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
@@ -225,3 +229,101 @@ section .about-image{
     align-items: center;
     margin-left: 300px;
 }
+
+/* this is projects section */
+.project1{
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid var(--second-color);
+    display: inline-block;
+    padding: 20px 30px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.project1 .proj-image{
+    width: 250px;
+    height: 350px;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.project1 .btn{
+font-size: 18px;
+border: 1px solid var(--second-color);
+padding: 10px 20px;
+background-color: transparent;
+border-radius: 20px;
+}
+
+.project1 .btn:nth-child(odd){
+    background-color: #353535;
+    color: var(--fourth-color);
+    border: none;
+    }
+
+    .projects{
+        text-align: center;
+    }
+
+    .project1 .btn:hover{
+       background-color: var(--third-color);
+       transition: background-color 1s ease;
+       color: var(--fourth-color);
+    }
+
+    /* this is Contact form */
+    .contact-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid var(--third-color);
+        width: 500px;
+        margin: 0 auto;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contact-form i{
+        font-size: 24px;
+        margin-right: 10px;
+    }
+
+    .contact-form input{
+       border: none;
+       width: 200px;
+       margin-right: 10px;
+    }
+
+       /* this is footer section */
+       .footer-nav ul{
+        list-style: none;
+        text-align: center;
+        margin-top: 100px;
+       }
+
+       .footer-nav ul li{
+        display: inline-block;
+        margin: 0 20px;
+        font-size: 20px;
+       }
+
+       .footer-nav ul li a{
+        text-decoration: none;
+        color: var(--third-color);
+       }
+
+       .footer-nav li a:hover{
+        border-bottom-style: solid;
+        text-underline-offset: var(--primary-color);
+        /* padding-bottom: 5px; */
+        color: var(--primary-color);
+       }
+
+       footer p{
+        color: var(--primary-color);
+        font-size: 14px;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 20px;
+       }
